@@ -1,77 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Roboto:ital,wght@0,300;0,400;1,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Castoro+Titling&family=Courgette&family=Dancing+Script:wght@700&family=Fasthand&family=Oswald&family=Pacifico&family=Permanent+Marker&family=Press+Start+2P&display=swap");
+/* javascript is used to put logic and functionality to our website */
+*{
+  font-family: "Fasthand", cursive;
+}
+.body {
+  font-family: "Fasthand", cursive;
+  background-image: url("../Images/bg6.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.head {
+  font-size:xx-large;
+  color: aliceblue;
+}
 .navbar{
-    color: rgb(106, 34, 222);
-    background-color: #cfaec6;
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-    padding: 15px 0;
+    justify-content: space-between;
     display: flex;
+    flex-direction: row;
+    background-color:black;
+    color: aliceblue;
+    padding: 15px;
+}
+.bx{
+    align-self: center;
+    cursor: pointer;
 }
 .section {
   text-align: center;
-} 
-
-#shopproduct{
-    color: rgb(108, 12, 109);
-    font-family: 'Dancing Script', cursive;
-    font-size: xx-large;
-    font-weight: bolder;
-    text-decoration: underline;
 }
-
-.intoproduct {
-    margin: 5px;
-    border: 5px solid black;
-    width: 250px;
-    height: 400px;
+.shop {
+  font-size: x-large;
+  color: aliceblue;
 }
-
-.intoproduct img {
+/* .card {
+  font-size: larger;
+  display: inline-flex;
+  justify-content: center;
+} */
+.tab{
     width: 100%;
-    height: 65%;
-    object-fit: contain;
 }
-
-.cart{
-    align-content: center;
-    margin: 20px;
-  }
-.cart-body{
+.img{
+    width: 60%;
+    height: 60%;
+    background-color: aliceblue;
+}
+.box{
     margin: 5px;
     border:5px solid black;
     padding: 25px;
-    width: 200px;
-    height: 350px;
-    font-size: larger;
-  } 
-.cart-img{
-    width: 200px;
-    height: 60%;
-  }
-.cart-total{
+    width: 270px;
+    height: 400px;
+    background-image: url(../Images/bg7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row{
+    display: inline-flex;
+}
+.rate{
     display: flex;
     justify-content: space-between;
-  }
+}
 
+.cart{
+  align-content: center;
+  margin: 20px;
+}
+.cart-img{
+  width: 200px;
+  height: 60%;
+}
+.cart-total{
+  display: flex;
+  justify-content: space-between;
+}
+.cart-content{
+  margin: 5px;
+  border:5px solid black;
+  padding: 25px;
+  width: 200px;
+  height: 350px;
+  font-size: larger;
+}
 .btn-order:hover{
-    cursor: pointer;
-    background-color: rgb(149, 34, 175);
-    color: rgb(217, 171, 226);
-  }
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
 .cart-title{
-    text-align: center;
-    font-size: xx-large;
-  }
+  text-align: center;
+  font-size: xx-large;
+}
 .home{
-    background-color: black;
-    color: white;
-    display:flex;
-    justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-.Order{
-    display: flex;
-    justify-content: space-between;
-  }
+  background-color: black;
+  color: white;
+  display:flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.back{
+  font-size: x-large;
+  color: aliceblue;
+}
+.delete{
+  display: flex;
+  justify-content: space-between;
+}
+.cart-nav{
+  color: white;
+}
