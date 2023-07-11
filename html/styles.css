@@ -1,61 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Roboto:ital,wght@0,300;0,400;1,700&display=swap');
 
-.navbar {
-    color: brown;
-    border: silver;
-    font-size: large;
-    position: fixed;
-    background-color: orange;
+.navbar{
+    color: rgb(106, 34, 222);
+    background-color: #cfaec6;
+    font-family: 'Roboto', sans-serif;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     padding: 15px 0;
-    margin: 0;
+    display: flex;
 }
+.section {
+  text-align: center;
+} 
 
-.navbar a {
-    margin-left: 20px;
-}
-
-.navbar i {
-    margin-right: 20px;
-}
-
-#Shopping_Product{
-    color: blue;
-    text-align: center;
+#shopproduct{
+    color: rgb(108, 12, 109);
+    font-family: 'Dancing Script', cursive;
     font-size: xx-large;
     font-weight: bolder;
-    font-family: 'Dancing Script', cursive;
     text-decoration: underline;
 }
-*{
-    font-family: 'Bacasime Antique', serif;
-}
 
-.product-container-1 {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 100px;
-}
-
-.product-1 {
-    margin: 10px;
-    border: 2px solid;
-    width: 17%;
+.intoproduct {
+    margin: 5px;
+    border: 5px solid black;
+    width: 250px;
     height: 400px;
 }
 
-.product-1 img {
+.intoproduct img {
     width: 100%;
-    height: 55%;
+    height: 65%;
+    object-fit: contain;
 }
 
-.product-1 span{
-    font-weight: bold;
-    font-size: 1.2em;
-}
-.product-1 h2{
-     margin: 10px;
-}
+.cart{
+    align-content: center;
+    margin: 20px;
+  }
+.cart-body{
+    margin: 5px;
+    border:5px solid black;
+    padding: 25px;
+    width: 200px;
+    height: 350px;
+    font-size: larger;
+  } 
+.cart-img{
+    width: 200px;
+    height: 60%;
+  }
+.cart-total{
+    display: flex;
+    justify-content: space-between;
+  }
+
+.btn-order:hover{
+    cursor: pointer;
+    background-color: rgb(149, 34, 175);
+    color: rgb(217, 171, 226);
+  }
+.cart-title{
+    text-align: center;
+    font-size: xx-large;
+  }
+.home{
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+.Order{
+    display: flex;
+    justify-content: space-between;
+  }
