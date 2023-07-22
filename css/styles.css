@@ -1,24 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Castoro+Titling&family=Courgette&family=Dancing+Script:wght@700&family=Fasthand&family=Oswald&family=Pacifico&family=Permanent+Marker&family=Press+Start+2P&display=swap");
 /* javascript is used to put logic and functionality to our website */
 *{
-  font-family: "Fasthand", cursive;
+  font-family:cursive;
 }
 .body {
-  font-family: "Fasthand", cursive;
+  font-family:cursive;
   background-image: url("../Images/bg6.jpg") ;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .head {
   font-size:xx-large;
-  color: rgb(40, 204, 163);
+  color: rgb(24, 146, 164);
 }
 .navbar{
     justify-content: space-between;
     display: flex;
     flex-direction: row;
     background-color:black;
-    color: aliceblue;
+    color: rgb(31, 7, 18);
     padding: 15px;
 }
 .bx{
@@ -30,7 +30,7 @@
 }
 .shop {
   font-size: x-large;
-  color: aliceblue;
+  color: rgb(198, 28, 195);
 }
 /* .card {
   font-size: larger;
@@ -80,8 +80,9 @@
   border:5px solid black;
   padding: 25px;
   width: 200px;
-  height: 350px;
+  height: 400px;
   font-size: larger;
+  background-color: rgb(80, 159, 209);
 }
 .btn-order:hover{
   cursor: pointer;
@@ -94,7 +95,7 @@
 }
 .home{
   background-color: black;
-  color: white;
+  color: rgb(208, 122, 122);
   display:flex;
   justify-content: space-between;
   padding-left: 20px;
@@ -110,4 +111,29 @@
 }
 .cart-nav{
   color: white;
+}
+.hbtn {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  font-size: larger;
+  font-weight: bold;
+  background-color: white;
+}
+.hbtn:hover {
+  cursor: pointer;
+}
+.cost{
+  font-size: small;
+}
+.t{
+  display: inline-flex;
+}
+.block{
+  font-size: x-large;
+  text-align: center;
+}
+.mycart{
+  font-size: xx-large;
 }

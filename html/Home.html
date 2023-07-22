@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link href="../../css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 
 <body class="body">
@@ -28,84 +28,84 @@
         <div>
             <div class="row">
                 <div class="box">
-                    <img src="C:\Users\hamsh_d7k3r9d\OneDrive\Documents\shoping cart\images\hoodies.webp" alt="Image not found" class="img" height="10%" width="10%">
+                    <img src="../images/hoodies.webp" alt="Image not found" class="img" height="10%" width="10%">
                     <h3>Hoodies</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, temporibus!</p>
                     <div class="rate">
                         <span>₹1500</span>
-                        <i class='b bx bxs-shopping-bag-alt bx-sm'></i>
+                        <i class='b bx bxs-shopping-bag-alt bx-sm' onclick="addCart('Hoodies',1500,'hoodies.webp')" id="cl"></i>
                     </div>
                 </div>
                 <div class="box">
-                    <img src="C:\Users\hamsh_d7k3r9d\OneDrive\Documents\shoping cart\images\iphone-12-blue.jpg" alt="Image not found" class="img" height="10%" width="10%">
+                    <img src="../images/iphone-12-blue.jpg" alt="Image not found" class="img" height="10%" width="10%">
                     <h3>Iphone-12</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, temporibus!</p>
                     <div class="rate">
                         <span>₹150000</span>
-                    <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                    <i class='bx bxs-shopping-bag-alt bx-sm' onclick="addCart('Iphone-12',150000,'iphone-12-blue.jpg')" id="cl"></i>
                     </div>
                 </div>
                 <div class="box">
-                    <img src="C:\Users\hamsh_d7k3r9d\OneDrive\Documents\shoping cart\images\lehengas.jpg" alt="Image not found" class="img" height="10%" width="10%">
+                    <img src="../images/lehengas.jpg" alt="Image not found" class="img" height="10%" width="10%">
                     <h3>Lehengas</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, temporibus!</p>
                     <div class="rate">
                         <span>₹2800</span>
-                        <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                        <i class='bx bxs-shopping-bag-alt bx-sm' onclick="addCart('Lehengas',2800,'lehengas.jpg')" id="cl"></i>
                     </div>
                 </div>
                 <div class="box">
-                    <img src="C:\Users\hamsh_d7k3r9d\OneDrive\Documents\shoping cart\images\Nike bags.jpg" alt="Image not found" class="img" height="10%" width="10%">
+                    <img src="../images/Nike bags.jpg" alt="Image not found" class="img" height="10%" width="10%">
                     <h3>Nike bags</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, temporibus!</p>
                     <div class="rate">
                         <span>1599</span>
-                        <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                        <i class='bx bxs-shopping-bag-alt bx-sm' onclick="addCart('Nike bags',1599,'Nike bags.jpg')" id="cl"></i>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="box">
-                    <img src="C:\Users\hamsh_d7k3r9d\OneDrive\Documents\shoping cart\images\Nivea bodylotion.webp" alt="Image not found" class="img" height="10%" width="10%">
-                    <h3>Nivea bodylotion/h3>
+                    <img src="../images/Nivea bodylotion.webp" alt="Image not found" class="img" height="10%" width="10%">
+                    <h3>Nivea bodylotion</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, temporibus!</p>
                     <div class="rate">
                         <span>₹399</span>
-                        <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                        <i class='bx bxs-shopping-bag-alt bx-sm' onclick="addCart('Nivea bodylotion',399,'Nivea bodylotion.webp')" id="cl"></i>
                     </div>
                 </div>
                 <div class="box">
-                    <img src="C:\Users\hamsh_d7k3r9d\OneDrive\Documents\shoping cart\images\Noise headphones.jpg" alt="Image not found" class="img" height="10%" width="10%">
+                    <img src="../images/Noise headphones.jpg" alt="Image not found" class="img" height="10%" width="10%">
                     <h3>Noise Headphones</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, temporibus!</p>
                     <div class="rate">
                         <span>₹2599</span>
-                        <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                        <i class='bx bxs-shopping-bag-alt bx-sm' onclick="addCart('Noise Headphones',2599,'Noise headphones.jpg')" id="cl"></i>
                     </div>
                 </div>
                 <div class="box">
-                    <img src="C:\Users\hamsh_d7k3r9d\OneDrive\Documents\shoping cart\images\Puma shoes.jpg" alt="Image not found" class="img" height="10%" width="10%">
+                    <img src="../images/Puma shoes.jpg" alt="Image not found" class="img" height="10%" width="10%">
                     <h3>Puma Shoes</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, temporibus!</p>
                     <div class="rate">
                         <span>₹3699</span>
-                        <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                        <i class='bx bxs-shopping-bag-alt bx-sm' onclick="addCart('Puma shoes',3699,'Puma shoes.jpg')" id="cl"></i>
                     </div>
                 </div>
                 <div class="box">
-                    <img src="C:\Users\hamsh_d7k3r9d\OneDrive\Documents\shoping cart\images\urbanic flared jeans.jpg" alt="Image not found" class="img" height="10%" width="10%">
+                    <img src="../images/urbanic flared jeans.jpg" alt="Image not found" class="img" height="10%" width="10%">
                     <h3>Urbanic flared jeans</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, temporibus!</p>
                     <div class="rate">
                         <span>₹1299</span>
-                        <i class='bx bxs-shopping-bag-alt bx-sm'></i>
+                        <i class='bx bxs-shopping-bag-alt bx-sm' onclick="addCart('Urbanic flared jeans',1299,'urbanic flared jeans.jpg')" id="cl"></i>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <script src="../../js/bootstrap.bundle.min.js"></script>
-    <script src="../JAVASCRIPT/Script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../JS/javascript.js"></script>
 </body>
 
 </html>
